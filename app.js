@@ -7,6 +7,13 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+const mongoose = require('mongoose');
+
+// Connect to MongoDB
+mongoose.connect('mongodb://localhost:27017/triggerlog')
+  .then(() => console.log('✅ MongoDB connected!'))
+  .catch(err => console.log('❌ MongoDB error:', err));
+
 var app = express();
 
 // view engine setup
