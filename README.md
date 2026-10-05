@@ -2,6 +2,8 @@
 
 **A food and symptom journal built with Node.js, Express, and MongoDB.**
 
+🌐 Live website: [triggerlog.onrender.com](https://triggerlog.onrender.com/)
+
 TriggerLog lets users record meals, foods, symptoms, and severity in one place. It provides a searchable history for reviewing entries over time.
 
 ## Features
